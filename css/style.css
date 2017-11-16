@@ -1,0 +1,226 @@
+/* CSS reset by Eric Meyer */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Generic classes */
+
+.float_sx {
+    float: left;
+}
+
+.float_dx {
+    float: right;
+}
+
+
+/* Page style */
+
+body {
+    background-color: #002B36;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+    color: #95a2a2;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.3;
+}
+
+ul li:before
+{
+    content: '*';
+    color: #b1bec1;
+    margin: 0 5px;    /* any design */
+}
+
+b { color: #7C931C; }
+a { color: #249588; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 180%; }
+h2 { font-size: 130%; }
+h3 { font-size: 115%; color: #ad800c;  }
+h4 { font-size: 105%; color: #ad9c0c; padding-top: 1%; }
+p  { padding: 0.5% 0; }
+
+/* Page sections */
+
+/* HEADER */
+#header {
+    background-color: #247C9C;
+    padding: 1%;
+    font-family: sans-serif;
+    text-align: center;
+    color: #d9e1e3;
+}
+
+
+/* CONTENTS */
+#contents {
+    margin: 0 auto;
+    padding: 0 2.5%;
+}
+
+.section {
+    margin: 2.5% 0;
+}
+
+/* COVER */
+#cover {
+    text-align: justify;
+}
+
+/* CONTACT */
+#contact div.photo img {
+    width: 40%;
+    margin: 5% 30%;
+}
+
+#contact div.info {
+    width: 40%;
+    margin: 0 30%;
+    line-height: 1.3;
+    text-align: center;
+}
+
+#contact span.logo {
+    color: #95a2a2;
+    font-size: 1.7em;
+}
+
+
+#contact span.info {
+    display: none;
+}
+
+
+/* WORK */
+#work ul li:before {
+    content: '$';
+    /*    content: '$ █';*/
+}
+
+/* EDUCATION */
+#education ul li:before {
+    content: '#';
+    /*    content: '# █';*/
+}
+
+/* FOOTER */
+#footer {
+    font-size: 60%;
+    text-align: right;
+    font-style: italic;
+    margin: 15% 1% 1%;
+
+}
+
+#footer a { 
+    color: #4e9b92; 
+}
+
+/* Breakpoints */
+
+/* Tablet & Desktop version */
+@media only screen 
+    and (min-device-width: 768px) {
+
+        body {
+            font-family: 'Lucida Console', Monaco, monospace;
+            /*font-family: 'Inconsolata', 'Consolas', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Source Code Pro', 
+            'Lucida Console', Monaco, monospace;*/
+            word-spacing: -2px;
+            font-size: 0.9em;
+        }     
+
+        #header {
+            padding-bottom: 1.5%;
+            text-align: left;
+        }
+
+        #contents {
+            width: 640px;
+        }
+
+        #contact div.photo img {
+            width: 20%;
+            float: left;
+            margin: 1.5% 5%;
+        }
+
+        #contact div.info {
+            width: 60%;
+            margin-left: 30%;
+            line-height: 1.5;
+            padding: 3% 0 0 2%;
+            text-align: left;
+        }
+
+        #contact span.logo {
+            font-size: 1.1em;
+            padding-right: 5px;
+        }
+
+        #contact span.info {
+            display: inline;
+        }
+
+        #footer {
+            font-size: 95%;
+            font-family: sans-serif;
+            word-spacing: normal;
+            margin: 15% 0.5% 0.5%;
+        }
+
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xslt"?>
+
+<page>
+    <!-- CONTACT INFO-->
+    <contact>
+        <name></name>
+        <title></title>
+        <photo file='' />
+        <email>
+            <address></address>
+            <gpg></gpg>
+        </email>
+        <github></github>
+        <twitter></twitter>
+        <reddit></reddit>
+        <linkedin></linkedin>
+    </contact>
+
+    <!-- COVER -->
+    <cover>
+
+    </cover>
+    <!-- WORK -->
+    <work>
+
+        <experience role=''>
+            <company></company>
+            <where></where>
+            <when></when>
+            <job>
+                <li></li>
+            </job>
+        </experience>
+
+
+    </work>
+
+    <!-- EDUCATION -->
+    <education>
+
+        <course type='course' title=''>
+            <cert></cert>
+            <who></who>
+            <via></via>
+            <when></when>
+            <syllabus>
+                <li></li>
+            </syllabus>
+        </course>
+
+        <course type='degree' title=''>
+            <where></where>
+            <when></when>
+            <syllabus>
+                <li></li>
+            </syllabus>
+        </course>
+
+    </education>
+
+</page>

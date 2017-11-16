@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xslt"?>
+
+<page>
+    <!-- CONTACT INFO-->
+    <contact>
+        <name>Lord Darth Vader</name>
+        <title>Supreme Commander of the Galactic Empire</title>
+        <photo file='media/darth.jpeg' />
+        <email>
+            <address><a mail='mailto://darth.vader@empire.evil'>darth.vader@empire.evil</a></address>
+            <gpg><a href='https://www.empire.evil/gpg.txt' /></gpg>
+        </email>
+        <github><a href='https://github.com/darth'>github.com/darth</a></github>
+        <twitter><a href='https://twitter.com/darthy'>twitter.com/darthy</a></twitter>
+        <reddit><a href='https://www.reddit.com/user/darth/'>reddit.com/user/darth</a></reddit>
+        <linkedin><a href='https://www.linkedin.com/in/dvader/'>linkedin.com/in/dvader</a></linkedin>
+    </contact>
+
+    <!-- COVER -->
+    <cover>
+        <p>I am a <b>reliable</b> Sith Lord who always carries out what he starts, even rebuilding from scratch projects destroyed by rebels.</p>
+        <p>No communication skills, I do work well with others to reach a common purpose and to serve the <b>supreme</b> good.
+            Tireless, compulsive, maniac of order and success, I find the lack of <b>faith</b> disturbing.</p>
+    </cover>
+    <!-- WORK -->
+    <work>
+
+        <experience role='Supreme Commander'>
+            <company>Galactic Empire</company>
+            <when>18 BBY - 4 ABY</when>
+            <job>
+                <li>Spread fear throughout the galaxy</li>
+                <li>Extend the power of the Galactic Empire</li>
+                <li>Hunt rebels</li>
+            </job>
+        </experience>
+
+        <experience role='CEO and Head of Security'>
+            <company><a href="http://www.deathstar.com">Death Star Inc.</a></company>
+            <when>18 BBY - 4 ABY</when>
+            <job>
+                <li>Supervised construction of Death Star(TM) mass destruction weapons</li>
+                <li>Personally slaughtered the squad of rebel soldiers responsible for stealing Death Star I plans</li>
+                <li>Managed to locate Rebel Alliance’s base through interrogation techniques (including torture and destruction of planets)</li>
+                <li>Captured well-known smuggler and traitor Han Solo in collaboration with bounty hunter Boba Fett </li>
+            </job>
+        </experience>
+
+
+        <experience role='Senior Dark Lord of the Sith'>
+            <company><a href="https://www.darkside.sith/">Order of the Sith Lords</a></company>
+            <when>19 BBY</when>
+            <job>
+                <li>Destroyed the Jedi Order, leading a legion of clones inside the Jedi Temple and hunting fugitive Jedi</li>
+                <li>Dealt with Senator Fang Zar on Alderaan</li>
+                <li>Supervised Wookiee enslavement process on Kashyyyk</li>
+            </job>
+        </experience>
+
+    </work>
+
+    <!-- EDUCATION -->
+    <education>
+
+        <course type='degree' title='Ev.D. Intergalactic Domination'>
+            <where><a href="https://www.palpatine.com">Palpatine Institute of Dark Side Studies</a></where>
+            <when>19 BBY</when>
+            <syllabus>
+                <li>Intergalactic Strategy</li>
+                <li>Strategic HR Management and Interrogation Techniques</li>
+                <li>Exploitation of Labour</li>
+                <li>Development of Dictatorial Skills</li>
+            </syllabus>
+        </course>
+
+        <course type='course' title='Lightsaber Advanced Course'>
+            <cert><a href="https://theforce.jedi/lightsaber/certificates/askywalker.html" /></cert>
+            <who><a href="https://obiwan.jedi/">Obi-Wan Kenobi</a></who>
+            <via><a href="https://www.theforce.jedi/lightsaber">Academy of Advanced Jedi Training</a></via>
+            <when>20 BBY</when>
+            <syllabus>
+                <li>Offensive and Defensive Techniques</li>
+                <li>Integration of the Force in lightsaber combat</li>
+            </syllabus>
+        </course>
+
+        <course type='degree' title='M.J. Force Power'>
+            <where><a href="http://www.theforce.jedi">Jedi Order</a>, Coruscant</where>
+            <when>20 BBY</when>
+            <syllabus>
+                <li>Metaphysics and Philosophy of the Force</li>
+                <li>Ethics and Political Philosophy from the Republic to the Empire</li>
+                <li>Jedi Order History from the Je'daii Order to Yoda</li>
+                <li>Aesthetics of the Force</li>
+            </syllabus>
+        </course>
+
+        <course type='degree' title='B.S. Computer Science'>
+            <where><a href="http://www.tst.org">Technical school of Tatooine</a>, Outer Rim Territories</where>
+            <when>34 BBY</when>
+            <syllabus>
+                <li>Electrical engineering, Circuits and Electronics, Robotics</li>
+                <li>Computer Science: 
+                    Algorithms, Computer System Engineering,
+                    Cryptography, Databases, Software Engineering, Automata Computability and Complexity, 
+                    Computer Networks, Operative Systems, Artificial Intelligence
+                </li>
+                <li>Thesis: Reconfiguration of a Protocol Droid</li>
+            </syllabus>
+        </course>
+
+    </education>
+
+</page>
