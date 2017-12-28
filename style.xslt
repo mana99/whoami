@@ -79,8 +79,8 @@
                 <a href="{email/address/a/@mail}"><span class="logo icon-mail-alt"></span></a>
                 <span class="info">    
                     <a href="{//email/address/a/@mail}"><xsl:value-of select="//email/address"/></a> 
-                    <xsl:if test='email/gpg'>
-                        [<a href="{//email/gpg/a/@href}">gpg</a>]
+                    <xsl:if test='email/pgp'>
+                        [<a href="{//email/pgp/a/@href}">pgp</a>]
                     </xsl:if>
                     <br />
                 </span>
@@ -133,12 +133,13 @@
             <xsl:text>, </xsl:text> 
             <xsl:value-of select="when"/>
         </xsl:if>
-
-        <xsl:apply-templates select="job"/>
+        <xsl:if test='job'>
+            <ul><xsl:apply-templates select="job"/></ul>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="job/li">
-        <ul><li><xsl:value-of select="."/></li></ul>
+        <xsl:copy-of select="." />
     </xsl:template>
 
 
@@ -186,13 +187,14 @@
                 </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:apply-templates select="syllabus"/>
+        <xsl:if test='syllabus'>
+            <ul><xsl:apply-templates select="syllabus"/></ul>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="syllabus/li">
-        <ul><li><xsl:value-of select="."/></li></ul>
+        <xsl:copy-of select="." />
     </xsl:template>
-
 
 </xsl:stylesheet>
 
