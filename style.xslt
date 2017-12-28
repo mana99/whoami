@@ -10,6 +10,7 @@
                 <title><xsl:value-of select="contact/name"/></title> 
                 <link rel="stylesheet" type="text/css" href="css/fontello.css" />
                 <link rel="stylesheet" type="text/css" href="css/style.css" />
+                <link rel="stylesheet" type="text/css" media="print" href="css/print-style.css" />
             </head>
             <body>
                 <div>

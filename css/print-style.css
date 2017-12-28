@@ -1,0 +1,125 @@
+
+/* CSS reset by Eric Meyer */
+@import url("reset.css");
+
+
+/* Page margins */
+@page { 
+    margin: 2cm 1.5cm
+} 
+
+@page :first {
+    margin-top: 3.5cm;
+}
+
+
+/*Page breaks*/
+ul {
+    page-break-inside: avoid;
+    
+}
+
+/*
+ * #cover {page-break-after: always;}
+ * #work {page-break-before: always;}
+ */
+
+
+/* Page style */
+body {
+    background-color: white;
+    color: black;
+    font-family: serif;
+    line-height: 1.2;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.3;
+    font-style: italic;
+    padding: 0.25em 0 0.5em;
+}
+
+ul li:before
+{
+    content: '*';
+    margin: 0 5px;
+}
+
+b { color: black;}
+a { text-decoration: none; color: black;}
+h1 { font-size: 160%; color: black;}
+h2 { font-size: 120%; color: black;}
+h3 { font-size: 115%; color: black;}
+h4 { font-size: 105%; padding-top: 1%; color: black;}
+p  { padding: 0.5% 0; color: black;}
+
+/* Page sections */
+
+/* HEADER */
+#header {
+    padding: 1%;
+    text-align: left;
+}
+
+/* CONTENTS */
+#contents {
+    margin: 0 auto;
+    padding: 0 2.5%;
+/*
+ * column-count: 2;
+ * column-gap: 2em;
+ * column-rule: thin solid #95a2a2;
+ */
+}
+
+.section {
+    margin: 2.5% 0;
+}
+
+/* COVER */
+#cover {
+    text-align: justify;
+}
+
+/* CONTACT */
+#contact div.photo img {
+    width: 30%;
+    float: left;
+    margin: 1.5% 5%;
+}
+
+
+#contact div.info {
+    width: 60%;
+    margin-left: 30%;
+    line-height: 1.5;
+    padding: 3% 0 0 2%;
+    text-align: left;    
+}
+
+#contact span.logo {
+    font-size: 1.1em;
+    padding-right: 5px;
+}
+
+#contact span.info {
+    display: inline;
+}
+
+
+/* WORK */
+#work ul li:before {
+    content: '$';
+}
+
+/* EDUCATION */
+#education ul li:before {
+    content: '#';
+}
+
+/* FOOTER */
+#footer {
+    display: none;
+}
