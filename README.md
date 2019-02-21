@@ -19,5 +19,3 @@ cp -r static/* build/
 or simply call the `build.sh` script. 
 
 The rendered web page can be found at https://dvader.surge.sh.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wxL8bVJhXCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
